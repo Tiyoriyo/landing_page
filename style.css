@@ -16,17 +16,29 @@ body {
 .header_hero {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: #2bCE6B;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+    padding: 16px;
 }
 
 .header_logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links {
+    gap: 16px;
+}
+
+.hero_left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .hero_main {
@@ -41,8 +53,14 @@ body {
     color: #e5e7eb;
 }
 
+
 .hero_button {
-    background-color: #3882f6;
+    background-color: #2D3047;
+    border: 0;
+    padding: 6px 24px;
+    color: white;
+    border-radius: 5px;
+    align-self: flex-start;
 }
 
 ul {
@@ -72,16 +90,41 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px 100px 150px 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info_title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .info_container {
     display: flex;
-    width: 500px;
+    align-items: center;
 }
 
 .infobox {
     display: flex;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    gap: 8px;
+}
+
+.info_img {
+    height: auto;
+    width: 200px;
+    border: 5px solid #1F2937;
+    border-radius: 10px;
+}
+
+#switch {
+    height: 133.281px;
 }
 
 .quote {
@@ -121,7 +164,7 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    background-color: #3882f6;
+    background-color: #2bCE6B;
     padding: 35px 75px;
     border-radius: 10px;
 }
@@ -143,15 +186,24 @@ ul {
 }
 
 .call_button {
-    background-color: #3882f6;
+    background-color: #2D3047;
     border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px 24px;
+    white-space: nowrap;
+    color: white;
+}
+
+.call_button:hover,
+.hero_button:hover {
+    background-color: #3a3e5a;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
+    background-color: #2e3d52;
     font-size: 18px;
     color: #e5e7eb;
     padding: 25px;
