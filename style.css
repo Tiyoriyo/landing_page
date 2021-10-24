@@ -129,7 +129,7 @@ ul {
     text-align: center;
     flex-direction: column;
     align-items: center;
-    width: 250px;
+    width: 300px;
     gap: 8px;
 }
 
@@ -237,6 +237,10 @@ ul {
     white-space: nowrap;
     color: #2D3047;
     box-shadow:  #101922;
+}
+
+.call_button:hover {
+    background-color: #cfbfc0
 }
 
 .call_button:hover,
